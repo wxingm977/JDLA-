@@ -1,0 +1,25 @@
+VNCは、オープンソースのため様々なソフトウェアがあります。今回は定番の「UltraVNC」を使います。
+安全な「窓の杜」からダウンロードしましょう。
+https://forest.watch.impress.co.jp/library/software/ultravnc/
+UltraVNC_1_2_24_X64_Setup.exe
+
+一、インストール種類を選択します。
+今回は、操作されるパソコンのため「サーバー」には必ずチェックを入れましょう。
+あとはお好みでビューアーにチェックを入れます。「Next>」をクリックします。
+⇒UltraVNC Server, UltraVNC Viewer
+
+二、サーバ配置を設定します。
+サービスして登録するか否かをしています。
+サービスとは、自動的に裏で起動するプログラムのことです。
+わざわざサーバーを起動しなくても使えるメリットがある反面、使わない時も起動されてしまうことになります。
+お好みでチェックをつけましょう。
+    1.サービスとして登録するか否か(Register UltraVNC Server as a system service)
+    2.サービスをパソコン立ち上げ時に起動するか否か(Start or restart UltraVNC service)
+    3.VNCアイコンをデスクトップに登録するか否か(Create UltraVNC desktop icons)
+ 
+三-、サーバのパスワードを設定します。
+「UltraVNC Server」を右クリックします。
+「Admin Properties」をクリックします。間違えて上の「Properties」をクリックしないように気を付けてください。
+⇒「Authentication」領域でVNC Passwordに任意の文字列を設定してください。
+
+
