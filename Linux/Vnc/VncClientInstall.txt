@@ -13,3 +13,9 @@ sudo apt-get update
 二、インストール(/usr/bin/xtigervncviewer)
 sudo apt-get install tigervnc-viewer
 
+三、起動します。
+ xtigervncviewer
+ /usr/bin/xtigervncviewer
+ 
+
+
