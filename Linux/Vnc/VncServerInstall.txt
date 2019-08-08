@@ -1,0 +1,29 @@
+[1] 	VNCサーバーをインストールします。
+root@dlp:~# apt -y install vnc4server 
+
+[2] 	VNC を起動したい任意のユーザーでログインして設定します。デスクトップ環境については当例では MATE デスクトップを利用しています。 
+# VNCパスワード設定
+ubuntu@dlp:~$ vncpasswd
+Password:
+Verify:
+
+# VNCサーバー起動
+ubuntu@dlp:~$ vncserver :1
+New 'dlp.srv.world:1 (ubuntu)' desktop is dlp.srv.world:1
+Creating default startup script /home/ubuntu/.vnc/xstartup
+Starting applications specified in /home/ubuntu/.vnc/xstartup
+Log file is /home/ubuntu/.vnc/dlp.srv.world:1.log
+
+# 一旦停止
+ubuntu@dlp:~$ vncserver -kill :1
+Killing Xvnc4 process ID 1513
+
+ubuntu@dlp:~$ vi ~/.vnc/xstartup
+# 最終行に追記
+exec /usr/bin/mate-session &
+
+# ディスプレイ番号 [1], 解像度 [800x600], 色深度 [24] で起動
+ubuntu@dlp:~$ vncserver :1 -geometry 800x600 -depth 24
+New 'ubuntu:1 (ubuntu)' desktop is ubuntu:1
+Starting applications specified in /home/ubuntu/.vnc/xstartup
+Log file is /home/ubuntu/.vnc/ubuntu:1.log
