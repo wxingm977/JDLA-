@@ -1,0 +1,15 @@
+TigerVNCはWindows版も出してる比較的新しいVNCクライアント。
+    フルスクリーン機能
+    プロファイル機能
+    スクリーンキャプチャ機能
+    
+一、Ubuntuのインストール源を更新します。
+基本的なVNCクライアントの機能を持っている インストールするにはまず以下のコマンドを実行。
+VERSIONには「wheezy」とか「precise」などのUbuntu or Debianのバージョンを入れる。
+sudo wget -O - http://winswitch.org/gpg.asc | apt-key add -
+sudo echo "deb http://winswitch.org/ VERSION main" > /etc/apt/sources.list.d/winswitch.list
+sudo apt-get update
+
+二、インストール(/usr/bin/xtigervncviewer)
+sudo apt-get install tigervnc-viewer
+
