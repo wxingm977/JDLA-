@@ -1,0 +1,6 @@
+下記サイトより、最新版の UltraVNC をダウンロードします。 
+http://www.uvnc.com/downloads/ultravnc.html
+
+ダウンロードとインストールの完了後、[UltraVNC Viewer] をクリックして起動します。
+[VNC Server] の欄に [サーバーのホスト名またはIPアドレス：起動時に指定したディスプレイ番号] と指定し、[Connect] ボタンをクリックします。 
+
