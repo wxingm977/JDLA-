@@ -18,8 +18,9 @@ UltraVNC_1_2_24_X64_Setup.exe
     3.VNCアイコンをデスクトップに登録するか否か(Create UltraVNC desktop icons)
  
 三-、サーバのパスワードを設定します。
-「UltraVNC Server」を右クリックします。
-「Admin Properties」をクリックします。間違えて上の「Properties」をクリックしないように気を付けてください。
+「UltraVNC　→　UltraVNC Server Settings」をクリックします。
+「Security」タブをクリックします。
 ⇒「Authentication」領域でVNC Passwordに任意の文字列を設定してください。
+
 
 
