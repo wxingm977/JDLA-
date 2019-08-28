@@ -1,4 +1,4 @@
-1. datasets.fetch_mldata
+#1. datasets.fetch_mldata
 DeprecationWarning: Function fetch_mldata is deprecated; 
 fetch_mldata was deprecated in version 0.20 and will be removed in version 0.22. 
 Please use fetch_openml.
