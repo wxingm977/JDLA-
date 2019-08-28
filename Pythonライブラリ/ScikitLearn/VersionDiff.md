@@ -6,7 +6,7 @@ Please use fetch_openml.
 Load data from https://www.openml.org/d/554
 ```
 %time X, y = fetch_openml('mnist_784', version=1, return_X_y=True)  
-mnist = fetch_openml('mnist_784', version=1)```  
-from sklearn.datasets import fetch_mldata```  
+mnist = fetch_openml('mnist_784', version=1)  
+from sklearn.datasets import fetch_mldata  
 mnist = fetch_mldata('MNIST original')
 ```  
